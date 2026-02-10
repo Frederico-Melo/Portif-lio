@@ -1,5 +1,284 @@
-<!DOCTYPE html>
-<html>
-    <head>
-    </head>
+<<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio de Frederico Melo - Estudante de Engenharia de Software">
+    <title>Frederico Melo | Engenharia de Software</title>
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container nav-container">
+            <a href="#" class="logo">Fred.<span>Dev</span></a>
+            <nav class="nav-menu">
+                <a href="#home">Início</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#formacao">Formação</a>
+                <a href="#habilidades">Habilidades</a>
+                <a href="#projetos">Projetos</a>
+                <a href="#contato" class="btn-nav">Contato</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container hero-content">
+            <span class="badge-hero">Portfólio Acadêmico</span>
+            <h1>Frederico Melo</h1>
+            <h2>Estudante de Engenharia de Software</h2>
+            <p class="subtitle">3º período — Universidade Evangélica de Anápolis</p>
+            <p class="objective">
+                Buscando aplicar conhecimentos em desenvolvimento de software, criando soluções tecnológicas com foco em qualidade, agilidade e inovação.
+            </p>
+            <div class="hero-buttons">
+                <a href="#projetos" class="btn btn-primary">Ver Projetos <i class="fas fa-arrow-right"></i></a>
+                <a href="#contato" class="btn btn-outline">Entrar em Contato</a>
+            </div>
+        </div>
+        <div class="hero-shape"></div>
+    </section>
+
+    <section id="sobre" class="section">
+        <div class="container">
+            <h2 class="section-title">Sobre Mim</h2>
+            <div class="about-card">
+                <div class="about-icon">
+                    <i class="fas fa-user-graduate"></i>
+                </div>
+                <div class="about-text">
+                    <p>
+                        Olá! Sou estudante de <strong>Engenharia de Software</strong> na Universidade Evangélica de Anápolis, atualmente cursando o <strong>3º período</strong>.
+                    </p>
+                    <p>
+                        Possuo experiência inicial em programação e um forte foco em desenvolvimento e boas práticas de codificação. Meu interesse abrange a criação de projetos práticos, aplicação de metodologias ágeis e os fundamentos da engenharia de software.
+                    </p>
+                    <p>
+                        Estou construindo meu perfil profissional com foco <strong>Fullstack</strong>, buscando constantemente novos desafios para evoluir tecnicamente.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="formacao" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Trajetória Acadêmica</h2>
+            
+            <div class="timeline-grid">
+                <div class="timeline-col">
+                    <h3><i class="fas fa-check-circle"></i> Disciplinas Concluídas</h3>
+                    <div class="card-list">
+                        <div class="card-item">Engenharia de Software</div>
+                        <div class="card-item">Requisitos e Métricas de Software</div>
+                        <div class="card-item">Algoritmos e Programação (C)</div>
+                        <div class="card-item">Design de Interface e UX</div>
+                        <div class="card-item">Arquitetura e Org. de Computadores</div>
+                        <div class="card-item">Sistemas Operacionais</div>
+                        <div class="card-item">Matemática Computacional</div>
+                        <div class="card-item">Limite e Derivada</div>
+                        <div class="card-item">Inovação em TI</div>
+                    </div>
+                </div>
+
+                <div class="timeline-col">
+                    <h3><i class="fas fa-spinner fa-spin"></i> Em Andamento (3º Período)</h3>
+                    <div class="card-list current-list">
+                        <div class="card-item active">Gestão Ágil de Projetos</div>
+                        <div class="card-item active">Probabilidade e Estatística</div>
+                        <div class="card-item active">Redes de Computadores</div>
+                        <div class="card-item active">Laboratórios de Programação</div>
+                        <div class="card-item active">Projeto de Bancos de Dados</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Certificações e Cursos</h2>
+            <div class="courses-grid">
+                <div class="course-card">
+                    <i class="fab fa-git-alt course-icon"></i>
+                    <h4>Git e GitHub</h4>
+                    <p>Comandos, versionamento e fluxo de trabalho.</p>
+                    <span class="status completed">Concluído</span>
+                </div>
+                <div class="course-card">
+                    <i class="fas fa-code course-icon"></i>
+                    <h4>Linguagem C</h4>
+                    <p>Lógica de programação e estruturas de dados.</p>
+                    <span class="status completed">Concluído</span>
+                </div>
+                <div class="course-card">
+                    <i class="fas fa-users-cog course-icon"></i>
+                    <h4>SCRUM</h4>
+                    <p>Framework ágil para gestão de projetos.</p>
+                    <span class="status pending">Em andamento</span>
+                </div>
+                <div class="course-card">
+                    <i class="fas fa-laptop-code course-icon"></i>
+                    <h4>RWPC</h4>
+                    <p>Responsive Web Page Creation.</p>
+                    <span class="status pending">Em andamento</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="habilidades" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Habilidades Técnicas</h2>
+            <div class="skills-wrapper">
+                
+                <div class="skill-box">
+                    <div class="skill-info">
+                        <span>HTML5</span>
+                        <span>Iniciante/Intermediário</span>
+                    </div>
+                    <div class="progress-bg">
+                        <div class="progress-bar html" style="--width: 50%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-box">
+                    <div class="skill-info">
+                        <span>CSS3</span>
+                        <span>Iniciante/Intermediário</span>
+                    </div>
+                    <div class="progress-bg">
+                        <div class="progress-bar css" style="--width: 45%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-box">
+                    <div class="skill-info">
+                        <span>Git / GitHub</span>
+                        <span>Básico</span>
+                    </div>
+                    <div class="progress-bg">
+                        <div class="progress-bar git" style="--width: 40%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-box">
+                    <div class="skill-info">
+                        <span>Linguagem C</span>
+                        <span>Básico/Intermediário</span>
+                    </div>
+                    <div class="progress-bg">
+                        <div class="progress-bar c-lang" style="--width: 55%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-box">
+                    <div class="skill-info">
+                        <span>Engenharia de Software</span>
+                        <span>Fundamentos</span>
+                    </div>
+                    <div class="progress-bg">
+                        <div class="progress-bar se" style="--width: 60%"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-box">
+                    <div class="skill-info">
+                        <span>Metodologias Ágeis</span>
+                        <span>Aprendendo</span>
+                    </div>
+                    <div class="progress-bg">
+                        <div class="progress-bar agile" style="--width: 30%"></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="projetos" class="section">
+        <div class="container">
+            <h2 class="section-title">Projeto em Destaque</h2>
+            
+            <details class="project-card-expandable">
+                <summary class="project-summary">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-handshake"></i>
+                        </div>
+                        <div class="project-title-box">
+                            <h3>Jobby</h3>
+                            <span class="badge-warning">Em fase de design (Figma)</span>
+                        </div>
+                        <div class="expand-icon">
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                    </div>
+                </summary>
+                
+                <div class="project-details">
+                    <p class="project-desc-intro">
+                        Um aplicativo inovador focado em conectar profissionais de serviços domésticos com contratantes de forma ágil e segura.
+                    </p>
+                    
+                    <div class="project-features">
+                        <h4>Principais Funcionalidades Planejadas:</h4>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Plataforma de anúncios para profissionais autônomos.</li>
+                            <li><i class="fas fa-check"></i> Exibição detalhada de serviços e tabela de preços.</li>
+                            <li><i class="fas fa-check"></i> Sistema robusto de avaliação e reputação.</li>
+                            <li><i class="fas fa-check"></i> Chat integrado para negociação.</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="project-meta">
+                        <p><strong>Objetivo:</strong> Facilitar a contratação e oferta de serviços locais.</p>
+                        <p><strong>Status Atual:</strong> Documentação funcional e prototipagem de alta fidelidade no Figma.</p>
+                    </div>
+
+                    <div class="project-tags">
+                        <span>UI/UX Design</span>
+                        <span>Documentação</span>
+                        <span>Engenharia de Requisitos</span>
+                    </div>
+                </div>
+            </details>
+
+        </div>
+    </section>
+
+    <section id="contato" class="section footer-cta">
+        <div class="container text-center">
+            <h2>Vamos Conversar?</h2>
+            <p>Estou disponível para estágios e projetos acadêmicos.</p>
+            
+            <div class="contact-links">
+                <a href="mailto:email@exemplo.com" class="contact-btn email">
+                    <i class="fas fa-envelope"></i> Enviar Email
+                </a>
+                <a href="https://linkedin.com" target="_blank" class="contact-btn linkedin">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+                <a href="https://github.com" target="_blank" class="contact-btn github">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Frederico Melo. Desenvolvido com HTML5 e CSS3.</p>
+        </div>
+    </footer>
+
+</body>
 </html>
