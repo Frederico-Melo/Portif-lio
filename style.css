@@ -572,7 +572,7 @@ a { text-decoration: none; color: inherit; }
 }
 
 .contact-btn:hover { transform: translateY(-3px); }
-
+.contact-btn.whatsapp { background: #25D366; color: white; }
 .contact-btn.email { background: var(--white); color: var(--text-dark); }
 .contact-btn.linkedin { background: #0077b5; color: white; }
 .contact-btn.github { background: #333; color: white; }
